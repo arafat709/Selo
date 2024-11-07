@@ -1,0 +1,642 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 20px 0;
+    background-color: brown;
+}
+
+/* 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+}
+
+.navbar li a:hover {
+    color: #fea115;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.navbar h1 {
+    color: #fea115;
+} */
+
+#hero {
+    padding: 100px 0;
+    position: relative;
+    background-image: url('images/banner.jpg');
+}
+
+.hero-sec {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-right {
+    width: 50%;
+    position: relative;
+}
+
+.hero-right img {
+    height: 430px;
+    width: 550px;
+    display: inline-block;
+}
+
+.hero-right p {
+    background-color: #fcc779;
+    height: 80px;
+    width: 80px;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-left h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.hero-left p {
+    color: white;
+    font-size: 20px;
+    padding: 30px 0 30px 0;
+}
+
+.hero-left button {
+    padding: 20px 60px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.hero-left button:hover {
+    background-color: #fea115;
+    transition: .5s;
+}
+
+
+
+section#team {
+    margin: 100px 0 0 0;
+}
+
+.d-team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-left {
+    width: 50%;
+}
+
+.team-right {
+    width: 50%;
+}
+
+.team-left img {
+    width: 415px;
+}
+
+.team-right h1 {
+    font-size: 43px;
+    color: navy;
+}
+
+.team-right p {
+    font-size: 23px;
+    padding: 30px 0 30px 0;
+    opacity: .6;
+}
+
+span {
+    color: #fea111;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.team-right button {
+    padding: 15px 50px;
+    color: #fea118;
+    text-transform: capitalize;
+    border: 2px solid #fea115;
+    background: transparent;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.team-right button:hover {
+    background-color: navy;
+    color: #fcc779;
+    border: 2px solid #fcc779;
+    transition: .5s;
+}
+
+
+
+section#service {
+    margin: 100px 0 50px 0;
+}
+
+.s-top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.s-top h1 {
+    font-size: 30px;
+}
+
+.s-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ser-1 {
+    width: 30%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 50px 0 50px 0;
+    border-radius: 5%;
+    box-shadow: 0 0 5px 5px whitesmoke;
+}
+
+.ser-1 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: navy;
+    margin: 20px 0 10px 0;
+}
+
+.ser-1 img {
+    background-color: navy;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.ser-1 i {
+    background-color: navy;
+    padding: 5px 10px;
+    color: white;
+    margin-top: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.ser-1:hover i {
+    opacity: 1;
+}
+
+.ser-2 {
+    width: 30%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 50px 0 50px 0;
+    border-radius: 5%;
+    box-shadow: 0 0 5px 5px whitesmoke;
+}
+
+.ser-2 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: navy;
+    margin: 20px 0 10px 0;
+}
+
+.ser-2 img {
+    background-color: navy;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.ser-2 i {
+    background-color: navy;
+    padding: 5px 10px;
+    color: white;
+    margin-top: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.ser-2:hover i {
+    opacity: 1;
+}
+
+.ser-3 {
+    width: 30%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 50px 0 50px 0;
+    border-radius: 5%;
+    box-shadow: 0 0 5px 5px whitesmoke;
+}
+
+.ser-3 h3 {
+    text-transform: capitalize;
+    font-size: 25px;
+    color: navy;
+    margin: 20px 0 10px 0;
+}
+
+.ser-3 img {
+    background-color: navy;
+    border-radius: 50%;
+    padding: 40px;
+}
+
+.ser-3 i {
+    background-color: navy;
+    padding: 5px 10px;
+    color: white;
+    margin-top: 20px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.ser-3:hover i {
+    opacity: 1;
+}
+
+
+section#ideas {
+    margin: 50px 0 50px 0;
+}
+
+.ideas-bottom {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px 0 20px 0;
+    box-shadow: 0 0 1px 1px black;
+}
+
+.ideas-top h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.ideas-top p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.second-idea {
+    width: 30%;
+    text-align: center;
+}
+
+.first-idea {
+    width: 30%;
+    text-align: center;
+}
+
+.third-idea {
+    width: 30%;
+    text-align: center;
+}
+
+.first-idea h1 {
+    background-color: navy;
+    display: inline-block;
+    color: white;
+    padding: 60px 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 10px solid #fea118;
+    font-size: 35px;
+}
+
+.first-idea p {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+.second-idea h1 {
+    background-color: navy;
+    display: inline-block;
+    color: white;
+    padding: 60px 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 10px solid #fea118;
+    font-size: 35px;
+}
+
+.second-idea p {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+.third-idea h1 {
+    background-color: navy;
+    display: inline-block;
+    color: white;
+    padding: 60px 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 10px solid #fea118;
+    font-size: 35px;
+}
+
+.third-idea p {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 20px 0 10px;
+}
+
+
+.testi-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testi-top h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: navy;
+    margin: 30px 0 10px 0;
+}
+
+.testi-top p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tb-1 {
+    width: 48%;
+}
+
+.tb-1 p {
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 5px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.tb-2 {
+    width: 48%;
+}
+
+.tb-2 p {
+    border: 1px solid black;
+    padding: 25px;
+    border-radius: 5px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.test-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 35%;
+    margin-top: 20px;
+}
+
+.para span {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.imag img {
+    border: 10px solid navy;
+    border-radius: 50%;
+}
+
+.para h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+
+#contact {
+    margin: 100px 0 50px 0;
+}
+
+input[type="text"],
+[type="email"],
+[type="tel"] {
+    width: 385px;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 388px;
+    height: 110px;
+    padding: 10px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #fea101;
+    color: white;
+    border: none;
+}
+
+#contact h1 {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+
+@media(max-width:575px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .hero-sec {
+        flex-direction: column;
+    }
+
+    .hero-left h1 {
+        font-size: 30px;
+    }
+
+    .hero-left {
+        width: 98%;
+    }
+
+    .hero-right {
+        width: 98%;
+    }
+
+    .hero-left p {
+        font-size: 15px;
+    }
+
+    .hero-left button {
+        padding: 10px 30px;
+        margin-bottom: 10px;
+    }
+
+    .hero-right img {
+        height: 230px;
+        width: 337px;
+        margin-left: 3px;
+    }
+
+    .hero-right p {
+        background-color: #fcc779;
+        height: 50px;
+        width: 50px;
+        color: white;
+        font-size: 20px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 285px;
+        left: 7px;
+    }
+
+    .d-team {
+        flex-direction: column;
+    }
+
+    .team-left img {
+        height: 300px;
+        width: 345px;
+
+    }
+
+    .team-left {
+        width: 98%;
+    }
+
+    .team-right {
+        width: 98%;
+    }
+
+    .team-right h1 {
+        font-size: 30px;
+    }
+
+    .team-right button {
+        padding: 10px 30px;
+    }
+
+    .s-bottom {
+        flex-direction: column;
+    }
+
+    .ser-1 {
+        width: 98%;
+    }
+
+    .ser-2 {
+        width: 98%;
+    }
+
+    .ser-3 {
+        width: 98%;
+    }
+
+    .ideas-bottom {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .first-idea {
+        width: 98%;
+    }
+
+    .second-idea {
+        width: 98%;
+    }
+
+    .third-idea {
+        width: 98%;
+    }
+
+    .testi-bottom {
+        flex-direction: column;
+    }
+
+    .test-icon {
+        margin: 10px 0 10px 10px;
+    }
+
+    .tb-1 {
+        width: 98%;
+    }
+
+    .tb-2 {
+        width: 98%;
+    }
+
+    .form {
+        width: 98%;
+    }
+
+    input[type="text"],
+    [type="email"],
+    [type="tel"] {
+        width: 90%;
+    }
+
+    textarea {
+        width: 91%;
+    }
+
+    input[type="submit"] {
+        width: 50%;
+        margin-top: 10px;
+    }
+}
